@@ -12,10 +12,49 @@
     <title>Login</title>
   </head>
   <body>
+          <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Recomiendame <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Paquetes <span class="sr-only">(current)</span></a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Gym Maniac</a>
+                    <a class="dropdown-item" href="#">Godin</a>
+                    <a class="dropdown-item" href="#">Estudiante</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#"></a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#"></a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Registrarse</button>
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Login</button>
+              </form>
+            </div>
+          </nav>
+      <!-- fin de la navbar -->
     <div class="contenedor">
     <section class="form-signup">
     <h1>Sign in</h1>
-    <form>
+    <form class="form-sign">
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
@@ -29,7 +68,9 @@
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Check me out</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="centrar-boton">
+        <button type="submit" class="btn btn-outline-danger my-2 my-sm-0 btn-sigin">Sign In</button>
+        </div>
       </form>
     </section>
     </div>
