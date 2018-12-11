@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: olivedrab;
+}
+.form-signup{
+    background: white;
+    height: 80vh;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+form{
+    width: 45%;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
