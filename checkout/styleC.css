@@ -17,11 +17,23 @@ h1{
     font-size: 2.5rem;
 }
 
+.padre{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 4%;
+}
+
 .contenedorFormato{
     padding: 10px;
     border-radius: 15px;
     background: white;
     width: 78%;
     
+}
+
+.juntadosCardyPago{
+    display: flex;
+    justify-content: space-around;
 }
 
