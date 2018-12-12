@@ -1,0 +1,27 @@
+.navbar{
+    background-color: rgb(255, 192, 0);
+}
+
+*{
+    font-family: roboto;
+}
+body{
+    background-color: rgb(255, 223, 0);
+
+}
+
+h1{
+    margin: 3% 9%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.contenedorFormato{
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+    width: 78%;
+    
+}
+
