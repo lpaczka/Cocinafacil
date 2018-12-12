@@ -1,9 +1,35 @@
 
-.navbar{
-    background-color: rgb(255, 192, 0);
-}
-
 body{
     background-color: rgb(255, 223, 0);
 
+}
+.btn{
+    margin: 5px;
+}
+.margen-boton{
+    margin-left: 15px;
+}
+.navbar{
+    background-color: rgb(255, 192, 0);
+}
+.card-inline{
+    display: inline-block;
+}
+.height-img-card{
+    height: 150px;
+}
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+}
+.carousel-control-next, 
+.carousel-control-prev{
+width: 3%;
+}
+.width-cards{
+    width: 93%;
+}
+.flexcards{
+    display: flex;
+    justify-content: space-around;
 }

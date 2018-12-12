@@ -1,8 +1,11 @@
 .navbar{
     background-color: rgb(255, 192, 0);
 }
+.margen-boton{
+    margin-left: 15px;
+}
 body{
-    background: rgb(255, 223, 0);
+    background: rgba(255, 221, 0, 0.5);
 }
 .form-signup{
     border-radius: 15px;
