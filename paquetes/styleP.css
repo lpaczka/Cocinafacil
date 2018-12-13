@@ -1,6 +1,7 @@
 
 body{
     background-color: rgb(255, 223, 0);
+    margin-top: 55px;
 
 }
 .btn{
@@ -15,10 +16,10 @@ body{
     width: 100%;
     z-index: 1080;
     top: 0;
-    margin-bottom: 20px;
 }
 .card-inline{
     display: inline-block;
+    border-radius: 10px;
 }
 .height-img-card{
     height: 150px;
@@ -42,4 +43,21 @@ width: 3%;
     position: absolute;
     right: 60px;
     bottom: 20px;
+}
+.paquetes-alinear{
+    text-align: center;
+    font-family: Dancing Script;
+    color: white;
+    font-size: 80px;
+    -webkit-text-stroke: .2px black;
+}
+.categoria-paquetes{
+    margin-left: 25px;
+}
+.carousel-margen-bottom{
+    margin-bottom: 20px;
+}
+.categoria-margen-familia{
+    margin-top: 0;
+    padding-top: 0;
 }
