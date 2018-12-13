@@ -15,6 +15,7 @@ body{
     width: 100%;
     z-index: 1080;
     top: 0;
+    margin-bottom: 20px;
 }
 .card-inline{
     display: inline-block;
@@ -36,4 +37,9 @@ width: 3%;
 .flexcards{
     display: flex;
     justify-content: space-around;
+}
+.precio{
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
 }
