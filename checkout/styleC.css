@@ -1,9 +1,15 @@
+.btn{
+    margin: 5px;
+}
+.margen-boton{
+    margin-left: 15px;
+}
 .navbar{
     background-color: rgb(255, 192, 0);
-    /* position: fixed;
+    position: fixed;
     width: 100%;
     z-index: 1080;
-    top: 0; */
+    top: 0;
 }
 
 *{

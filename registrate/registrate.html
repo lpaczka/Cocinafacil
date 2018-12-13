@@ -59,7 +59,8 @@
 
     <div class="contenedor">
         <div class="formulario">
-            <h1>Únete al equipo</h1>
+            <h1>Regístrate</h1>
+            <hr>
             <form class="checkoutForm">
 
                 <div class="form-row">
@@ -93,16 +94,16 @@
                         <label for="inputColonia">Colonia</label>
                         <select id="inputColonia" class="form-control">
                             <option selected>Selecciona</option>
-                            <option>Cuauhtémoc</option>
-                            <option>Juárez</option>
-                            <option>Polanco</option>
-                            <option>Roma-Condesa</option>
-                            <option>San Miguel Chapultepec</option>
+                            <option value="colcuauhtemoc">Cuauhtémoc</option>
+                            <option value="coljuarez">Juárez</option>
+                            <option value="colpolanco">Polanco</option>
+                            <option value="colroma-condesa">Roma-Condesa</option>
+                            <option value="colsanmiguel">San Miguel Chapultepec</option>
                         </select>
                     </div>
                     <div class="form-group col-md-4">
                         <label for="telefono">Teléfono</label>
-                        <input type="text" class="form-control" id="telefono">
+                        <input type="number" class="form-control" id="telefono">
                     </div>
                 </div>
                 <!-- <div class="form-group">
@@ -113,8 +114,9 @@
                         </label>
                     </div>
                 </div> -->
+
                 <div class="signInStandard">
-                    <button type="submit" class="btn btn-primary cambiarboton">Sign in</button>
+                        <a href="../paquetes/paquetes.html"> <button type="button" class="btn btn-danger cambiarboton">¿Jalas?</button></a>
                 </div>
             </form>
         </div>
