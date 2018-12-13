@@ -2,7 +2,7 @@
     padding: 10px;
     border-radius: 15px;
     background: white;
-    width: 78%;
+    width: 87%;
     
 }
 .btn{
@@ -45,7 +45,8 @@ body{
 .contenedor{
     display: flex;
     align-items: center;
-    margin: 5% 0% 5% 19%;
+    height: calc(100vh - 60px);
+    justify-content: center;
 }
 
 .cambiarboton{
@@ -58,5 +59,4 @@ body{
 .signInStandard{
     display: flex;
     justify-content: center;
-
 }

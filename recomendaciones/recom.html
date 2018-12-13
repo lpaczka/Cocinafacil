@@ -30,7 +30,7 @@
                     <a class="nav-link" href="../recomendaciones/recom.html">Recomiendame <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="../paquetes/paquetes.html">Paquetes <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../paquetes/paquetes.html">Paquetes<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -57,56 +57,97 @@
         </div>
     </nav>
     <h1>Recomendaciones</h1>
-    <div class="contenedor">
-        <div class="formulario">
-  
-    <form class="checkoutForm">
-
-        <div class="form-row">
-            <div class="form-group col-md-12">
-                <label for="inputEmail4">Edad</label>
-                <input type="Edad" class="form-control" id="inputEmail4" placeholder="Si no eres mayor de edad usa la tarjeta de tus padres">
+    <div class="tarjetas-recomendaciones">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://buenavida.pr/wp-content/uploads/2017/01/Deportista-1170x780.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Gym maniac</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="centrar">
+              <a href="#" class="btn btn-primary">¡Voy a tener suerte!</a>
+              </div>
             </div>
-            
-        </div>
-        <div class="form-group">
-            <label for="inputAddress">Actividad Física</label>
-            <input type="Actividad" class="form-control" id="inputAddress" placeholder="Caminar en el metro no cuenta">
-        </div>
-        <div class="form-row">
-            <div class="form-group col-md-4">
-                <label for="telefono">Sexo</label>
-                <input type="text" class="form-control" id="telefono" placeholder="Lgbttti Friendly">
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://buenavida.pr/wp-content/uploads/2017/01/Deportista-1170x780.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Godinez</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="centrar">
+              <a href="#" class="btn btn-primary">¡Voy a tener suerte!</a>
+              </div>
             </div>
-            <div class="form-group col-md-4">
-                <label for="telefono">Peso</label>
-                <input type="text" class="form-control" id="telefono" placeholder="Kg" >
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://buenavida.pr/wp-content/uploads/2017/01/Deportista-1170x780.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Estudiante</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="centrar">
+              <a href="#" class="btn btn-primary">¡Voy a tener suerte!</a>
+              </div>
             </div>
-            <div class="form-group col-md-4">
-                <label for="telefono">Estatura</label>
-                <input type="text" class="form-control" id="telefono" placeholder="Cm">
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://buenavida.pr/wp-content/uploads/2017/01/Deportista-1170x780.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hacker</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="centrar">
+              <a href="#" class="btn btn-primary">¡Voy a tener suerte!</a>
+              </div>
             </div>
+          </div>
+    </div>
+    <div class="boton-personalizar-recomendacion">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">¡No encuentro mi perfil!</button>
+    </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Llena el formulario</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-        
-        <div class="signInStandard col-12">
-<div class="btn col-2"></div>
-
-<div class="btn col-7">
-            <button type="button" class="btn btn-danger cambiarboton">Voy a tener suerte</button></div>
-            
+        <div class="modal-body">
+                <form class="checkoutForm">
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="inputEmail4">Edad</label>
+                            <input type="Edad" class="form-control" id="inputEmail4" placeholder="Si no eres mayor de edad usa la tarjeta de tus padres">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Actividad Física</label>
+                        <input type="Actividad" class="form-control" id="inputAddress" placeholder="Caminar en el metro no cuenta">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <label for="telefono">Sexo</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="Lgbttti Friendly">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="telefono">Peso</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="Kg" >
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="telefono">Estatura</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="Cm">
+                        </div>
+                    </div>
+                    <div class="flex-btn">
+                        <button type="button" class="btn btn-danger cambiarboton">Voy a tener suerte</button>
+                    </div>
+                </form>
         </div>
-    </form>
-</div>
-</div>
-    
+      </div>
+    </div>
+  </div>
 
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
