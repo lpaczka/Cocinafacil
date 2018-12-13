@@ -3,6 +3,22 @@ body{
     background-color: rgb(255, 223, 0);
 
 }
+.tarjetas-recomendaciones{
+    display: flex;
+    justify-content: space-around;
+}
+.card-img-top{
+    height: 150px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+.boton-personalizar-recomendacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
 .btn{
     margin: 5px;
 }
@@ -40,3 +56,4 @@ h1{
     align-items: center;
     margin: 1% 0% 5% 19%;
 }
+
