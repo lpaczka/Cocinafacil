@@ -3,11 +3,19 @@ body{
     background-color: rgb(255, 223, 0);
 
 }
+.btn{
+    margin: 5px;
+}
 .margen-boton{
     margin-left: 15px;
 }
 .navbar{
     background-color: rgb(255, 192, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 1080;
+    top: 0;
+    margin-bottom: 20px;
 }
 .card-inline{
     display: inline-block;
