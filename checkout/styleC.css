@@ -40,3 +40,30 @@ h1{
     justify-content: space-around;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.MetodoDePago{
+    display: inline;
+}
+
+.TitulosFormato{
+    font-size: 20px;
+
+}
+
+.boton-pago{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boton-pago-color{
+    color: #dc3545;
+    background-color: transparent;
+    background-image: none;
+    border-color: #dc3545;
+}
+
