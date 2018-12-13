@@ -46,14 +46,17 @@ h1{
 }
 .formulario{
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 7px;
     background: white;
-    width: 78%;
+    width: 90%;
+
     
 }
 .contenedor{
     display: flex;
     align-items: center;
-    margin: 1% 0% 5% 19%;
 }
-
+.flex-btn{
+    display: flex;
+    justify-content: center;
+}
