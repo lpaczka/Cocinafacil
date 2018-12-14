@@ -7,6 +7,10 @@ body{
 .btn{
     margin: 5px;
 }
+.btn-absolute{
+    position: absolute;
+    bottom: 15px;
+}
 .margen-boton{
     margin-left: 15px;
 }
@@ -20,6 +24,7 @@ body{
 .card-inline{
     display: inline-block;
     border-radius: 10px;
+    height: 360px;
 }
 .height-img-card{
     height: 150px;
