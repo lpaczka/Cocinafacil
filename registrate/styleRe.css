@@ -1,13 +1,8 @@
-.formulario{
-    padding: 10px;
-    border-radius: 15px;
-    background: white;
-    width: 87%;
-    
-}
 .btn{
     margin: 5px;
 }
+
+
 h1{
     margin: 3% 9%;
     display: flex;
@@ -20,23 +15,39 @@ h1{
 
 }
 
+.btn{
+    margin: 5px;
+}
+.margen-boton{
+    margin-left: 15px;
+}
 .navbar{
     background-color: rgb(255, 192, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 1080;
+    top: 0;
 }
 
 *{
     font-family: roboto;
 }
+
 body{
-    background-color: rgb(255, 223, 0);
+    background: rgba(255, 221, 0, 0.5);
 
 }
 
 .contenedor{
+    border-radius: 15px;
+    background: white;
+    height: 500px;
+    width: 87%;
     display: flex;
-    align-items: center;
-    height: calc(100vh - 60px);
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 
 .cambiarboton{

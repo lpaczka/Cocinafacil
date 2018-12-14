@@ -5,10 +5,10 @@
 function SelectDelegacion() {
 
     var selectedValue = document.getElementById('inputDelegacion');
-    var value = s.options[s.selectedIndex].value;
+    var value = inputDelegacion.options[inputDelegacion.selectedIndex].value;
     
     if (value === cuauhtemoc) {
-        alert("it equals camera")
+        alert("it equals colonias bien")
     }
     else if (value === miguelhidalgo) {
         alert("it equals microphone")
