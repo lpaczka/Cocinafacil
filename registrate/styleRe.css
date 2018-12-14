@@ -1,7 +1,9 @@
+*{
+    font-family: roboto;
+}
 .btn{
     margin: 5px;
 }
-
 
 h1{
     margin: 3% 9%;
@@ -12,7 +14,6 @@ h1{
 
 .checkoutForm{
     padding: 0% 22%;
-
 }
 
 .btn{
@@ -29,15 +30,18 @@ h1{
     top: 0;
 }
 
-*{
-    font-family: roboto;
-}
-
 body{
     background: rgba(255, 221, 0, 0.5);
+    overflow: hidden;
 
 }
-
+.flex-containar{
+    height: calc(100vh + 50px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .contenedor{
     border-radius: 15px;
     background: white;
@@ -47,16 +51,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
-
 .cambiarboton{
     color: #dc3545;
     background-color: transparent;
     background-image: none;
     border-color: #dc3545;
 }
-
 .signInStandard{
     display: flex;
     justify-content: center;
