@@ -82,3 +82,7 @@ h1{
     padding-top: 0;
     padding-bottom: 0;
 }
+.boton-estatico{
+    position: absolute;
+    bottom: 5px; 
+}
