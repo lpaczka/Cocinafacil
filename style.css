@@ -85,3 +85,24 @@ margin:115px; */
         -ms-transform: scale(1.1);
         transform: scale(1.1)
         }
+
+.icono{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    padding: 0;
+    fill: currentColor;
+    color: blue;
+    margin-right: -5px;
+    transition: all .3s;
+}
+.icono:hover{
+    transform: rotateZ(-30deg);
+}
+.navbar-brand{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
